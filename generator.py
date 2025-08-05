@@ -1,5 +1,5 @@
 import os
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 import streamlit as st 
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -125,4 +125,5 @@ def main():
 
  #Invoking main function
 if __name__ == '__main__':
+
     main()  
